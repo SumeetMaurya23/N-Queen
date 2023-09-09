@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-Queens Puzzle Solver</title> <!-- Provide a meaningful title -->
+    <link rel="stylesheet" href="one.css">
+    <script src="index.js"></script> <!-- Corrected the script file name -->
+</head>
+<body>
+    <div id="control-panel">
+        <input type="number" id="num_sq" placeholder="no. of Queens" min="4" required>
+        <input type="number" id="size_sq" placeholder="size">
+        <button id="sol-btn" class="light">SOLVE<i class="fas fa-sync-alt"></i></button>
+        <button id="next-sol-btn" class="dark">Next Solution<i class="fas fa-step-forward"></i></button>
+        <br>
+        <span>solution number: </span>
+        <span id="sol-num">0</span>
+    </div>
+      
+    <div style="background: #aaa; position: relative;">
+        <div id="chessboard">
+        </div>
+        <!--
+        <div class="spinner-container">
+          <div class="spinner">
+          </div>
+        </div>
+        -->
+    </div>
+</body>
+</html>
